@@ -24,4 +24,4 @@ Allowing **random access** to elements using an **index**.
 - `std::vector` in c++ (cpp).
 - Internally resizes by allocating a large array and copying elements.
 
-See [array_ex.cpp](code/array_ex.cpp) for C++ example.
+See [array_ex.cpp](array/array_ex.cpp) for C++ example.
