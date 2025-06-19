@@ -23,4 +23,4 @@
 | top       | O(1)            |
 
 ## Code Example
-See [stack.cpp](code/stack.cpp) for C++ example.
+See [stack.cpp](stack.cpp) for C++ example.
