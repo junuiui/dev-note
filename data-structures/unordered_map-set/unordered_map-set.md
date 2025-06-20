@@ -18,9 +18,9 @@
 std::unordered_map<KeyType, ValueType> map_name;
 
 # Usage
-std::unordered_map<std::string, int> freq;
-freq["apple"] = 2;
-if (freq.count("apple")) { /* ... */ }
+`std::unordered_map<std::string, int> freq;`
+`freq["apple"] = 2;`
+`if (freq.count("apple")) { /* ... */ }`
 
 ### unordered_set
 
@@ -34,9 +34,9 @@ std::unordered_set<int> s;
 
 # Usage
 
-std::unordered_set<int> seen;
-seen.insert(10);
-if (seen.count(10)) { /* ... */ }
+`std::unordered_set<int> seen;`
+`seen.insert(10);`
+`if (seen.count(10)) { /* ... */ }`
 
 ## Summary 
 
