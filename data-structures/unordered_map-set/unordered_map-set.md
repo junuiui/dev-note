@@ -45,9 +45,10 @@ if (seen.count(10)) { /* ... */ }
 
 | Container       | Ordered | Unique | Key-Value | Avg Time (Insert/Search) |
 | --------------- | ------- | ------ | --------- | ------------------------ |
-| `set`           | O       | O      | ❌         | O(log n)                 |
-| `unordered_set` | ❌       | O      | ❌         | O(1)                     |
-| `map`           | O      | O      | O         | O(log n)                 |
-| `unordered_map` | ❌       | O      | O         | O(1)                     |
+| `set`           | ✅       | ✅      | ❌         | O(log n)                 |
+| `unordered_set` | ❌       | ✅      | ❌         | O(1)                     |
+| `map`           | ✅       | ✅      | ✅         | O(log n)                 |
+| `unordered_map` | ❌       | ✅      | ✅         | O(1)                     |
+
 
 
