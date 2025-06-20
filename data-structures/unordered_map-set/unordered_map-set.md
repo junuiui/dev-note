@@ -43,10 +43,11 @@ std::unordered_set<int> seen;
 seen.insert(10);
 if (seen.count(10)) { /* ... */ }
 
-|Feature	|set (RB Tree)	|   unordered_set (Hash Table)|
------------------------------------------------------------
-|Ordered?	|Yes            |	No |
-|Duplicates?|No             |   No |
-|Insertion	|O(log n)       |	O(1) avg, O(n) worst
-|Search     |O(log n)       |	O(1) avg, O(n) worst|
+| Container       | Ordered | Unique | Key-Value | Avg Time (Insert/Search) |
+| --------------- | ------- | ------ | --------- | ------------------------ |
+| `set`           | O       | O      | ❌         | O(log n)                 |
+| `unordered_set` | ❌       | O      | ❌         | O(1)                     |
+| `map`           | O      | O      | O         | O(log n)                 |
+| `unordered_map` | ❌       | O      | O         | O(1)                     |
+
 
