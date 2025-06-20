@@ -44,6 +44,7 @@ seen.insert(10);
 if (seen.count(10)) { /* ... */ }
 
 |Feature	|set (RB Tree)	|   unordered_set (Hash Table)|
+-----------------------------------------------------------
 |Ordered?	|Yes            |	No |
 |Duplicates?|No             |   No |
 |Insertion	|O(log n)       |	O(1) avg, O(n) worst
