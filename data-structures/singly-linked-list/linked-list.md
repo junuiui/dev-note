@@ -18,8 +18,8 @@ A **linked list** is a linear data structure where elements (nodes) are stored i
 
 ## Operations
 
-- `insertFront(value)` - Insert at the beginning
-- `insertBack(value)` - Insert at the end
+- `pushFront(value)` - Insert at the beginning
+- `pushBack(value)` - Insert at the end
 - `deleteValue(value)` - Delete a node by value
 - `search(value)` - Check if a value exists
 - `print()` - Display all elements
