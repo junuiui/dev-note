@@ -1,4 +1,4 @@
-# Set, Map, and Unordered Versions
+### Set, Map, and Unordered Versions
 
 ## 1. `unordered_map` and `unordered_set`
 
@@ -8,40 +8,37 @@
 
 ## unordered_map
 
-### What is it?
+# What is it?
 
 - An associative container that stores key-value pairs with **unique keys**.
 - Implemented using a **hash table**.
 - Does **not maintain order** of elements.
 
-### Syntax
-
-```cpp
+# Syntax
 std::unordered_map<KeyType, ValueType> map_name;
 
-### Usage
-```cpp
+# Usage
 std::unordered_map<std::string, int> freq;
 freq["apple"] = 2;
 if (freq.count("apple")) { /* ... */ }
 
 ## set
 
-### What is it?
+# What is it?
 
 - A container that stores **unique elements** in **sorted order**.
 - Internally implemented using a **Red-Black Tree** (self-balancing BST).
 
-### Syntax
-
-```cpp
+# Syntax
 std::set<int> s;
 
-### Usage
+# Usage
 
 std::unordered_set<int> seen;
 seen.insert(10);
 if (seen.count(10)) { /* ... */ }
+
+## Summary 
 
 | Container       | Ordered | Unique | Key-Value | Avg Time (Insert/Search) |
 | --------------- | ------- | ------ | --------- | ------------------------ |
