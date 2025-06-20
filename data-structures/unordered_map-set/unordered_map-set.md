@@ -6,7 +6,7 @@
 - Average-case: O(1) insert, search, erase
 - Order is **not preserved**
 
-## unordered_map
+### unordered_map
 
 # What is it?
 
@@ -22,7 +22,7 @@ std::unordered_map<std::string, int> freq;
 freq["apple"] = 2;
 if (freq.count("apple")) { /* ... */ }
 
-## set
+### unordered_set
 
 # What is it?
 
@@ -30,7 +30,7 @@ if (freq.count("apple")) { /* ... */ }
 - Internally implemented using a **Red-Black Tree** (self-balancing BST).
 
 # Syntax
-std::set<int> s;
+std::unordered_set<int> s;
 
 # Usage
 
