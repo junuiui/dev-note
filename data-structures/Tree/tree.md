@@ -62,3 +62,7 @@ Tree
 | `Segment Tree    `   | Range queries (sum, min, max, etc.)  |
 | `Syntax Tree     `   | Used in compilers                    |
 | `Decision Tree   `   | Used in machine learning models      |
+
+## Code Example
+
+See [tree.cpp](tree.cpp) for C++ example.
