@@ -179,10 +179,6 @@ Process
         | Sprint Backlog  | 이번 스프린트 동안 할 작업들 목록       |
         | Increment       | 이번 스프린트에서 실제로 완성된 제품 기능들  |
 
-
-
-
-
 ## 3. DevOps & CI/CD (Modern Practice)
 - `DevOps` combines **development** and **operations** to improve collaboration, automation, and deployment speed.
 
