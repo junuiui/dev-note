@@ -17,3 +17,14 @@ Adapter
     3. 그 사이를 `Adapter`가 연결해 줌
 - Chec [adapter.cpp](adapter.cpp)
 
+## Summary
+| 구성 요소     | 역할                    |
+| --------- | --------------------- |
+| `Target`  | 우리가 기대하는 인터페이스        |
+| `Adaptee` | 외부 코드 / 호환되지 않는 인터페이스 |
+| `Adapter` | 중간에서 번역/호환시켜주는 클래스    |
+
+## 실무
+- C++ STL 또는 OpenGL, SDL, DirectX와 같은 라이브러리 감쌀 때
+- 다른 팀/회사 API를 내부 표준에 맞게 감쌀 때
+- 테스트할 때 mock 객체로 교체 용이하게 만들 때
