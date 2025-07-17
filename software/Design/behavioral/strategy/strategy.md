@@ -25,3 +25,8 @@ Strategy Pattern
     ```
 
 check [strategy.cpp](strategy.cpp)
+
+## Questions
+- "if-else가 많아지는 구조를 어떻게 개선하겠어요?"
+- "사용자가 동적으로 전략(알고리즘)을 선택해야 할 때 어떻게 설계하겠어요?"
+- "OCP(개방-폐쇄 원칙)를 지키려면 어떻게 해야 할까요?"
