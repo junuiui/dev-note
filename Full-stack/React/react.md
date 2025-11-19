@@ -79,6 +79,8 @@ function ControlledInput() {
     - connect with external systems like browser API
   5. Performance - `useMemo()` / `useCallback()`
     - Imporve app performance (preventing unnecessary work)
+    - 
+<br>check out [details](./Hooks.md) for more info
 
 ## Purity
 - how React components should work
